@@ -1,0 +1,794 @@
+# Copyright (C) 2016 CreateandCode
+# This file is distributed under the same license as the CreateandCode package.
+msgid ""
+msgstr ""
+"Project-Id-Version: CreateandCode\n"
+"Report-Msgid-Bugs-To: http://www.createandcode.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Colm Troy <colm@createandcode.com>\n"
+"Language-Team: CreateandCode Team <support@createandcode.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#: comments.php:25
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:31, comments.php:48
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:33, comments.php:50
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:34, comments.php:51
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:60
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:89
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:90
+msgid "Install Plugins"
+msgstr ""
+
+#: functions.php:91
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:92
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:93
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:94
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:95
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:96
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:97
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:98
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:99
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:100
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:101
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:102
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:103
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:104
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions.php:105
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: functions.php:158
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:225
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:227
+msgid "Main sidebar."
+msgstr ""
+
+#: functions.php:235
+msgid "Top Bar Left"
+msgstr ""
+
+#: functions.php:237
+msgid "This widget area appears in the top left of the screen in the top bar."
+msgstr ""
+
+#: functions.php:244
+msgid "Top Bar Right"
+msgstr ""
+
+#: functions.php:246
+msgid "This widget area appears in the top right of the screen in the top bar."
+msgstr ""
+
+#: functions.php:253
+msgid "Header Left"
+msgstr ""
+
+#: functions.php:255
+msgid "This widget area appears in the top left of the header."
+msgstr ""
+
+#: functions.php:262
+msgid "Header Right"
+msgstr ""
+
+#: functions.php:264
+msgid "This widget area appears in the top right of the header."
+msgstr ""
+
+#: functions.php:272
+msgid "Pages Sidebar"
+msgstr ""
+
+#: functions.php:274
+msgid "This widget appears on pages only."
+msgstr ""
+
+#: functions.php:282
+msgid "Footer Column 1"
+msgstr ""
+
+#: functions.php:284
+msgid "The first footer widget area."
+msgstr ""
+
+#: functions.php:291
+msgid "Footer  Column 2"
+msgstr ""
+
+#: functions.php:293
+msgid "The second footer widget area."
+msgstr ""
+
+#: functions.php:300
+msgid "Footer  Column 3"
+msgstr ""
+
+#: functions.php:302
+msgid "The third footer widget area."
+msgstr ""
+
+#: functions.php:309
+msgid "Footer Copyright"
+msgstr ""
+
+#: functions.php:311
+msgid "The footer copyright widget area."
+msgstr ""
+
+#: inc/customizer/fields/color.php:10
+msgid "Primary Swatch Color"
+msgstr ""
+
+#: inc/customizer/fields/color.php:11
+msgid "Select the primary color of your brand."
+msgstr ""
+
+#: inc/customizer/fields/color.php:97
+msgid "General links"
+msgstr ""
+
+#: inc/customizer/fields/color.php:98
+msgid "Select your general links color."
+msgstr ""
+
+#: inc/customizer/fields/color.php:121
+msgid "General link hover"
+msgstr ""
+
+#: inc/customizer/fields/color.php:122
+msgid "Select your general link hover color."
+msgstr ""
+
+#: inc/customizer/fields/color.php:145
+msgid "Wrapper Background Color"
+msgstr ""
+
+#: inc/customizer/fields/color.php:146
+msgid "Select your wrapper background color."
+msgstr ""
+
+#: inc/customizer/fields/color.php:162
+msgid "Top bar background"
+msgstr ""
+
+#: inc/customizer/fields/color.php:163
+msgid "Select your top bar background color."
+msgstr ""
+
+#: inc/customizer/fields/color.php:186
+msgid "Top bar text"
+msgstr ""
+
+#: inc/customizer/fields/color.php:187
+msgid "Select your top bar text color."
+msgstr ""
+
+#: inc/customizer/fields/color.php:211
+msgid "Header background"
+msgstr ""
+
+#: inc/customizer/fields/color.php:212
+msgid "Select your header background color."
+msgstr ""
+
+#: inc/customizer/fields/color.php:235
+msgid "Site title"
+msgstr ""
+
+#: inc/customizer/fields/color.php:236
+msgid "Select your site title color."
+msgstr ""
+
+#: inc/customizer/fields/color.php:259
+msgid "Site description"
+msgstr ""
+
+#: inc/customizer/fields/color.php:260
+msgid "Select your site description color."
+msgstr ""
+
+#: inc/customizer/fields/color.php:283
+msgid "Header text"
+msgstr ""
+
+#: inc/customizer/fields/color.php:284
+msgid "Select your header text color."
+msgstr ""
+
+#: inc/customizer/fields/color.php:308
+msgid "First footer background color"
+msgstr ""
+
+#: inc/customizer/fields/color.php:309
+msgid "Select your first footer background color."
+msgstr ""
+
+#: inc/customizer/fields/color.php:332
+msgid "First footer text color"
+msgstr ""
+
+#: inc/customizer/fields/color.php:333
+msgid "Select your first footer text color."
+msgstr ""
+
+#: inc/customizer/fields/color.php:356
+msgid "First footer links"
+msgstr ""
+
+#: inc/customizer/fields/color.php:357
+msgid "Select your first footer links color."
+msgstr ""
+
+#: inc/customizer/fields/color.php:380
+msgid "First footer link hover"
+msgstr ""
+
+#: inc/customizer/fields/color.php:381
+msgid "Select your first footer link hover color."
+msgstr ""
+
+#: inc/customizer/fields/color.php:405
+msgid "Copyright Background Color"
+msgstr ""
+
+#: inc/customizer/fields/color.php:406
+msgid "Select your copyright background color."
+msgstr ""
+
+#: inc/customizer/fields/color.php:429
+msgid "Copyright Text Color"
+msgstr ""
+
+#: inc/customizer/fields/color.php:430
+msgid "Select your copyright text color."
+msgstr ""
+
+#: inc/customizer/fields/color.php:453
+msgid "Copyright Links Color"
+msgstr ""
+
+#: inc/customizer/fields/color.php:454
+msgid "Select your copyright links color."
+msgstr ""
+
+#: inc/customizer/fields/help.php:9
+msgid "Premium Customer Support"
+msgstr ""
+
+#: inc/customizer/fields/help.php:11
+msgid "StartRight is provided as is. StartRight Pro provides tons of additional features, including premium customer support. Check it out on https://createandcode.com"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:10, inc/customizer/sections/color.php:33
+msgid "Top bar"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:11
+msgid "Show or hide the Top bar?"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:17, inc/customizer/fields/layout.php:33
+msgid "Show"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:18, inc/customizer/fields/layout.php:34
+msgid "Hide"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:26
+msgid "Show Footer?"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:27
+msgid "Show or hide the Footer?"
+msgstr ""
+
+#: inc/customizer/fields/typography.php:8
+msgid "Font settings"
+msgstr ""
+
+#: inc/customizer/fields/typography.php:34, inc/customizer/fields/typography.php:61, inc/customizer/fields/typography.php:88, inc/customizer/fields/typography.php:115, inc/customizer/fields/typography.php:142, inc/customizer/fields/typography.php:169
+msgid "Font Settings"
+msgstr ""
+
+#: inc/customizer/fields/typography.php:35, inc/customizer/fields/typography.php:62, inc/customizer/fields/typography.php:89, inc/customizer/fields/typography.php:116, inc/customizer/fields/typography.php:143, inc/customizer/fields/typography.php:170
+msgid "Select which font you would like to use"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:7
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:8
+msgid "Manage general theme settings"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:12
+msgid "Color"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:13
+msgid "Manage theme colors"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:17
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:18
+msgid "Manage theme typography"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:22
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:23
+msgid "Manage theme header, footer and more"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:27
+msgid "Help and Support"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:28
+msgid "Get help and support"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:32
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:33
+msgid "Manage blog settings"
+msgstr ""
+
+#: inc/customizer/sections/color.php:19
+msgid "General"
+msgstr ""
+
+#: inc/customizer/sections/color.php:22
+msgid "Manage general colors"
+msgstr ""
+
+#: inc/customizer/sections/color.php:26
+msgid "Layout Container"
+msgstr ""
+
+#: inc/customizer/sections/color.php:29
+msgid "Manage layout container colors"
+msgstr ""
+
+#: inc/customizer/sections/color.php:36
+msgid "Manage top bar colors"
+msgstr ""
+
+#: inc/customizer/sections/color.php:40
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/sections/color.php:43
+msgid "Manage header colors"
+msgstr ""
+
+#: inc/customizer/sections/color.php:47
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/sections/color.php:50
+msgid "Manage footer colors"
+msgstr ""
+
+#: inc/customizer/sections/general.php:19
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer/sections/general.php:22
+msgid "Upload your logo"
+msgstr ""
+
+#: inc/customizer/sections/general.php:26
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: inc/customizer/sections/general.php:29
+msgid "Manage your Footer copyright text"
+msgstr ""
+
+#: inc/customizer/sections/help.php:13, inc/setup/help.php:66, inc/setup/help.php:67
+msgid "StartRight Help"
+msgstr ""
+
+#: inc/customizer/sections/help.php:16
+msgid "Get help"
+msgstr ""
+
+#: inc/customizer/sections/help.php:19
+msgid "StartRight Support"
+msgstr ""
+
+#: inc/customizer/sections/help.php:22
+msgid "Get premium customer support"
+msgstr ""
+
+#: inc/customizer/sections/layout.php:13
+msgid "Top bar settings"
+msgstr ""
+
+#: inc/customizer/sections/layout.php:16
+msgid "Manage the top bar"
+msgstr ""
+
+#: inc/customizer/sections/layout.php:20
+msgid "Footer layout settings"
+msgstr ""
+
+#: inc/customizer/sections/layout.php:23
+msgid "Manage Footer Layout"
+msgstr ""
+
+#: inc/customizer/sections/typography.php:14
+msgid "Main Body"
+msgstr ""
+
+#: inc/customizer/sections/typography.php:17
+msgid "Font for the main body text"
+msgstr ""
+
+#: inc/include-kirki.php:46
+msgid "The Kirki Toolkit plugin is installed but not activated. Please <strong><a href=\"%s\">activate it</a></strong> in order to take full advantage of the theme's options."
+msgstr ""
+
+#: inc/include-kirki.php:66
+msgid "If you want to take full advantage of the options this theme has to offer, please install the companion Kirki Toolkit plugin."
+msgstr ""
+
+#: inc/setup/help.php:45
+msgid "Thanks for choosing StartRight! You can read hints and tips on how get the most out of your new theme in the %sHelp Centre%s."
+msgstr ""
+
+#: inc/setup/help.php:46
+msgid "Get started with StartRight"
+msgstr ""
+
+#: inc/setup/help.php:83
+msgid "StartRight Help Centre"
+msgstr ""
+
+#: inc/setup/help.php:84
+msgid "Everything you need to know to get the most out of StartRight."
+msgstr ""
+
+#: inc/setup/help.php:86
+msgid "Getting started"
+msgstr ""
+
+#: inc/setup/help.php:87
+msgid "Changelog"
+msgstr ""
+
+#: inc/setup/help.php:88
+msgid "Get the Pro Version"
+msgstr ""
+
+#: inc/setup/sections/changelog.php:13
+msgid "StartRight Changelog"
+msgstr ""
+
+#: inc/setup/sections/changelog.php:17
+msgid "Version 1.0 - 21 June 2016."
+msgstr ""
+
+#: inc/setup/sections/changelog.php:18
+msgid "Initial Release."
+msgstr ""
+
+#: inc/setup/sections/changelog.php:20
+msgid "Version 1.0.1 - 29 August 2016."
+msgstr ""
+
+#: inc/setup/sections/changelog.php:21
+msgid "Improved King Composer support."
+msgstr ""
+
+#: inc/setup/sections/changelog.php:23
+msgid "Version 1.0.2 - 04 October 2016."
+msgstr ""
+
+#: inc/setup/sections/changelog.php:24
+msgid "Compliance with latest TRT guidelines."
+msgstr ""
+
+#: inc/setup/sections/changelog.php:26
+msgid "Version 1.0.3 - 30 November 2016."
+msgstr ""
+
+#: inc/setup/sections/changelog.php:27
+msgid "Theme Review updates, Elementor support"
+msgstr ""
+
+#: inc/setup/sections/changelog.php:29
+msgid "Version 1.0.4 - 05 December 2016."
+msgstr ""
+
+#: inc/setup/sections/changelog.php:30
+msgid "Theme Review updates"
+msgstr ""
+
+#: inc/setup/sections/freepro.php:13
+msgid "Get StartRight Pro"
+msgstr ""
+
+#: inc/setup/sections/freepro.php:17
+msgid "Why StartRight Pro?"
+msgstr ""
+
+#: inc/setup/sections/freepro.php:18
+msgid "Go to the next level with StartRight Pro. With additional features added such as a beautiful portfolio to showcase your work, WooCommerce for selling products, WPML compatibility and premium support it has everything you need."
+msgstr ""
+
+#: inc/setup/sections/freepro.php:19, inc/setup/sections/intro.php:21
+msgid "Check out StartRight Pro."
+msgstr ""
+
+#: inc/setup/sections/intro.php:13
+msgid "Welcome to StartRight!"
+msgstr ""
+
+#: inc/setup/sections/intro.php:15
+msgid "Thanks for installing StartRight! You have made a great choice!. The StartRight Help Centre will help you get going using StartRight as quick as possible."
+msgstr ""
+
+#: inc/setup/sections/intro.php:19
+msgid "Customer Support"
+msgstr ""
+
+#: inc/setup/sections/intro.php:20
+msgid "Spend some time to go through all the information provided in the Help Centre. If you need some extra help StartRight we also have StartRight Pro which is an enhanced version of StartRight that offers premium customer support for those that need it."
+msgstr ""
+
+#: inc/setup/sections/intro.php:29
+msgid "How do I customize the theme?"
+msgstr ""
+
+#: inc/setup/sections/intro.php:31
+msgid "The StartRight Theme Customizer enables you to customize many elements of the theme directly without any coding skills. This includes options such as uploading your logo, changing your footer copyright text, changing color settings, and much more."
+msgstr ""
+
+#: inc/setup/sections/intro.php:32
+msgid "Launch the StartRight Theme Customizer"
+msgstr ""
+
+#: inc/setup/sections/intro.php:43
+msgid "StartRight Theme Documentation"
+msgstr ""
+
+#: inc/setup/sections/intro.php:44
+msgid "We provide lots of theme documentation articles including a detailed installation and setup guide on our website."
+msgstr ""
+
+#: inc/setup/sections/intro.php:45
+msgid "View StartRight Theme Documentation"
+msgstr ""
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:88
+msgctxt "Previous post link"
+msgid "<div class=\"nav-post nav-previous\"><div class=\"nav-post-background\"></div><span class=\"meta-nav\">Previous</span><span class=\"meta-title\">%title</span><span class=\"meta-date\">%date</span></div>"
+msgstr ""
+
+#: inc/template-tags.php:89
+msgctxt "Next post link"
+msgid "<div class=\"nav-post nav-next\"><div class=\"nav-post-background\"></div><span class=\"meta-nav\">Next</span><span class=\"meta-title\">%title</span><span class=\"meta-date\">%date</span></div>"
+msgstr ""
+
+#: inc/template-tags.php:189
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:198, inc/template-tags.php:202
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:210
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:210
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:210
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:226, inc/template-tags.php:232
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:228
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:234
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:338
+msgid "Read More"
+msgstr ""
+
+#: inc/template-tags.php:340, inc/template-tags.php:396, template-parts/content-fullwidthpage.php:14, template-parts/content-page.php:13
+msgid "Pages:"
+msgstr ""
+
+#: inc/template-tags.php:426
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:426, inc/template-tags.php:445
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:436
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: inc/template-tags.php:442
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/template-tags.php:449
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: index.php:36
+msgid "Latest Posts"
+msgstr ""
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:17
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:21
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:26
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: trt-customize-pro/example-1/class-customize.php:76
+msgid "StartRight Pro"
+msgstr ""
+
+#: trt-customize-pro/example-1/class-customize.php:77
+msgid "View Pro Features"
+msgstr ""

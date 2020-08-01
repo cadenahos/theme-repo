@@ -1,0 +1,185 @@
+/* --------------------------------------------------------------
+Elementor Styles
+-------------------------------------------------------------- */
+
+body .elementor-section.elementor-section-boxed > .elementor-container {
+   	max-width: 1100px;
+}
+
+.elementor {
+ 	margin-left: -15px;
+ 	margin-right: -15px;
+}
+
+/* -- Accordion -- */
+
+body .elementor-widget-accordion .elementor-accordion .elementor-accordion-title,
+body .elementor-widget-accordion .elementor-accordion .elementor-accordion-content {
+ 	font-family: inherit;
+ 	font-weight: inherit;
+ 	line-height: 1.4em;
+}
+
+.content-area .elementor-text-editor > h1:first-child, 
+.content-area .elementor-text-editor > h2:first-child, 
+.content-area .elementor-text-editor > h3:first-child, 
+.content-area .elementor-text-editor > h4:first-child, 
+.content-area .elementor-text-editor > h5:first-child {
+    margin-top: 0px;
+}
+
+.elementor-accordion p {
+	margin-bottom: 0px;
+}
+
+/* -- Images -- */
+
+/* -- Progress Bars -- */
+
+body .elementor-progress-bar {
+	font-size: 13px;
+}
+
+/* -- Tabs -- */
+
+.elementor-tabs {
+	margin-top: 8px;
+}
+
+body .elementor-tabs .elementor-tabs-wrapper .elementor-tab-title > span {
+	font-weight: 400;
+	font-family: inherit;
+}
+
+body .elementor-widget-tabs .elementor-tab-content {
+	color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+body .elementor-widget-tabs .elementor-tab-title {
+	font-weight: inherit;
+}
+
+body .elementor-tabs .elementor-tab-content {
+	padding: 30px 27px 30px 27px;
+}
+
+body .elementor-widget-tabs .elementor-tab-title > span {
+	font-family: inherit;
+}
+
+body .elementor-tabs .elementor-tabs-wrapper .elementor-tab-title>span {
+	padding-left: 28px;
+	padding-right: 28px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+	body .elementor-tabs .elementor-tabs-wrapper .elementor-tab-title {
+		display: block;
+	}
+
+	.elementor-tabs .elementor-tabs-wrapper .elementor-tab-title {
+		border-left: 1px solid #eee;
+	    border-right: 1px solid #eee;
+	    border-top: 1px solid #eee;
+	}
+
+	.elementor-tabs .elementor-tabs-wrapper .elementor-tab-title:last-child {
+		border-bottom: 1px solid #eee;
+	}
+
+	.elementor-widget-tabs .elementor-tabs .elementor-tabs-wrapper .elementor-tab-title.active {
+		border-left: none;
+		border-right: none;
+		border-bottom: none;
+	}
+
+	body .elementor-tabs .elementor-tabs-wrapper .elementor-tab-title>span {
+		padding: 18px 15px;
+	}
+
+	body .elementor-tabs .elementor-tab-content {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+}
+
+/* -- Headings -- */
+
+body .elementor-widget-text-editor {
+	color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+body .elementor-widget-heading .elementor-heading-title {
+	font-family: inherit;
+    font-weight: inherit;
+    line-height: 1.45em;
+}
+
+/* -- Counters -- */
+
+body .elementor-widget-counter .elementor-counter-title {
+	color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+body .elementor-widget-counter .elementor-counter-number-wrapper {
+	font-family: inherit;
+}
+
+body .elementor-widget-counter .elementor-counter-number-wrapper {
+    font-size: 110px;
+}
+
+/* -- Buttons -- */
+
+.elementor-widget-button .elementor-button {
+	padding: 20px 30px;
+}
+
+body .elementor-button.elementor-size-sm {
+	padding: 18px 24px;
+}
+
+/* -- Responsive -- */
+
+
+@media only screen and (max-width: 992px) {
+
+	body .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.elementor-accordion {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	.elementor-column-gap-extended .elementor-accordion {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.elementor-widget-progress {
+		margin-left: 8px;
+		margin-right: 8px;
+	}
+
+	body .elementor-widget-accordion .elementor-accordion .elementor-accordion-content {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.hide-bg-mobile {
+    	background-image: none !important;
+	}
+
+}
